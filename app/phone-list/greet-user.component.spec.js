@@ -1,7 +1,7 @@
 describe('greetUser', function() {
 
   // Load the module that contains the `greetUser` component before each test
-  beforeEach(module('phonecatApp'));
+  beforeEach(module('greetUser'));
 
   // Test the controller
   describe('NameController', function() {
