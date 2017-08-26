@@ -8,7 +8,6 @@ describe('greetUser', function() {
 
     it('should create a `name` model with text `Hello Raymond`', inject(function($componentController) {
       var ctrl = $componentController('greetUser');
-
       expect(ctrl.name).toBe('Hello Raymond!');
     }));
 

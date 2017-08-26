@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"to",
+				"toEqual"
+			],
+			[
 				"po",
 				"point"
 			],
@@ -276,10 +280,6 @@
 				"iChart"
 			],
 			[
-				"to",
-				"toString"
-			],
-			[
 				"summ",
 				"summaryGroups"
 			],
@@ -523,41 +523,21 @@
 			"file": "app/index.html",
 			"settings":
 			{
-				"buffer_size": 426,
+				"buffer_size": 494,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/phone-list.component.js",
+			"file": "app/app.module.js",
 			"settings":
 			{
-				"buffer_size": 762,
-				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "/ Register `phoneList` component, along with its a"
-			}
-		},
-		{
-			"file": "app/phone-list.component.spec.js",
-			"settings":
-			{
-				"buffer_size": 436,
-				"encoding": "UTF-8",
+				"buffer_size": 100,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/greet-user.component.spec.js",
-			"settings":
-			{
-				"buffer_size": 447,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/greet-user.component.js",
+			"file": "app/phone-list/greet-user.component.js",
 			"settings":
 			{
 				"buffer_size": 286,
@@ -566,19 +546,10 @@
 			}
 		},
 		{
-			"file": "app/app.spec.js",
+			"file": "app/phone-list/phone-list.component.js",
 			"settings":
 			{
-				"buffer_size": 88,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/app.js",
-			"settings":
-			{
-				"buffer_size": 70,
+				"buffer_size": 777,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -682,11 +653,24 @@
 	"expanded_folders":
 	[
 		"/home/raymond/dev/angular-phonecat",
-		"/home/raymond/dev/angular-phonecat/app"
+		"/home/raymond/dev/angular-phonecat/app",
+		"/home/raymond/dev/angular-phonecat/app/phone-list"
 	],
 	"file_history":
 	[
+		"/home/raymond/dev/angular-phonecat/app/index.html",
+		"/home/raymond/dev/angular-phonecat/app/app.js",
+		"/home/raymond/dev/angular-phonecat/app/app.module.js",
+		"/home/raymond/dev/angular-phonecat/app/phone-list/greet-user.module.js",
+		"/home/raymond/dev/angular-phonecat/app/app.spec.js",
+		"/home/raymond/dev/angular-phonecat/app/phone-list/phone-list.module.js",
+		"/home/raymond/dev/angular-phonecat/app/phone-list/greet-user.component.js",
+		"/home/raymond/dev/angular-phonecat/app/phone-list/greet-user.component.spec.js",
+		"/home/raymond/dev/angular-phonecat/app/phone-list/phone-list.component.spec.js",
+		"/home/raymond/dev/angular-phonecat/app/phone-list/phone-list.component.js",
+		"/home/raymond/dev/angular-phonecat/app/phone-list.component.js",
 		"/home/raymond/dev/angular-phonecat/app/phone-list.component.spec.js",
+		"/home/raymond/dev/angular-phonecat/app/greet-user.component.js",
 		"/home/raymond/dev/project/from_bitbucket/anagog_actual/anagog/public/js/app/modules/charts/views/Layout.js",
 		"/home/raymond/dev/project/from_bitbucket/anagog_actual/anagog/public/js/app/modules/charts/views/Layout.es6",
 		"/home/raymond/dev/project/from_bitbucket/anagog_actual/anagog/public/js/app/modules/my-reports/controllers/PdfController.es6",
@@ -801,23 +785,11 @@
 		"/home/raymond/dev/Tetris-Next/test/testSpec.js",
 		"/home/raymond/dev/Tetris-Next/karma.conf.js",
 		"/home/raymond/dev/pixel_manipulation/spec/testSpec.js",
-		"/home/raymond/dev/Tetris-Next/js/cube.js",
-		"/home/raymond/dev/Tetris-Next/test/test-main.js",
-		"/home/raymond/dev/Tetris-Next/js/main.js",
-		"/home/raymond/dev/snake_game/src/js/draw.js",
-		"/home/raymond/dev/Tetris-Next/js/module1.js",
-		"/home/raymond/dev/Tetris-Next/package.json",
-		"/home/raymond/dev/Tetris-Next/chat.html",
-		"/home/raymond/dev/Tetris-Next/js/config.js",
-		"/home/raymond/dev/snake_game/src/js/map.js",
-		"/home/raymond/dev/test/koawebserverwithchat/server.js",
-		"/home/raymond/dev/Tetris-Next/test.js",
-		"/home/raymond/dev/Tetris-Next/chat.js",
-		"/home/raymond/dev/test/koawebserverwithchat/socket.io/socket.io.js"
+		"/home/raymond/dev/Tetris-Next/js/cube.js"
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -1016,7 +988,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -1025,15 +997,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 426,
+						"buffer_size": 494,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								304,
-								304
+								268,
+								268
 							]
 						],
 						"settings":
@@ -1046,32 +1018,29 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "app/phone-list.component.js",
+					"file": "app/app.module.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 762,
+						"buffer_size": 100,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								759,
-								759
+								62,
+								62
 							]
 						],
 						"settings":
 						{
-							"auto_name": "/ Register `phoneList` component, along with its a",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1082,69 +1051,7 @@
 				},
 				{
 					"buffer": 2,
-					"file": "app/phone-list.component.spec.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 436,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/greet-user.component.spec.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 447,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								422,
-								422
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 4,
-					"file": "app/greet-user.component.js",
+					"file": "app/phone-list/greet-user.component.js",
 					"semi_transient": false,
 					"settings":
 					{
@@ -1155,15 +1062,13 @@
 						"selection":
 						[
 							[
-								275,
-								275
+								286,
+								286
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1171,22 +1076,28 @@
 					},
 					"stack_index": 0,
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
 				{
-					"buffer": 5,
-					"file": "app/app.spec.js",
+					"buffer": 3,
+					"file": "app/phone-list/phone-list.component.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 88,
+						"buffer_size": 777,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								82,
-								82
+								130,
+								130
 							]
 						],
 						"settings":
@@ -1199,37 +1110,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "app/app.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 70,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								70,
-								70
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -1263,7 +1144,7 @@
 		"cols":
 		[
 			0.0,
-			0.519157088123,
+			0.484696219553,
 			1.0
 		],
 		"rows":
@@ -1339,7 +1220,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
@@ -1347,7 +1228,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 289.0,
+	"side_bar_width": 441.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
