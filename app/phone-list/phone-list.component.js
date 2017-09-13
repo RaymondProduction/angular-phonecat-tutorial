@@ -5,7 +5,7 @@ angular.
   module('phoneList').
   component('phoneList', {
    templateUrl: 'phone-list/phone-list.template.html',
-    controller: function PhoneListController($http) {
+    controller: ['$http', function PhoneListController($http) {
       // Since we are making the assignment of the
       // phones property in a callback function,
       // where the this value is not defined,
@@ -14,7 +14,9 @@ angular.
       var self = this;
       self.orderProp = 'age';
       $http.get('phones/phones.json').then(function(response){
-        self.phones = response.data;
+        //self.phones = response.data;
+        self.phones = response.data.slice(0, 5);
       })
-    }
+    }]
+
   });
