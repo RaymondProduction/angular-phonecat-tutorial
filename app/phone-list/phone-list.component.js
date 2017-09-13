@@ -5,22 +5,16 @@ angular.
   module('phoneList').
   component('phoneList', {
    templateUrl: 'phone-list/phone-list.template.html',
-    controller: function PhoneListController() {
-      this.phones = [
-     {
-          name: 'Nexus S',
-          snippet: 'Fast just got faster with Nexus S.',
-          age: 1
-        }, {
-          name: 'Motorola XOOM™ with Wi-Fi',
-          snippet: 'The Next, Next Generation tablet.',
-          age: 2
-        }, {
-          name: 'MOTOROLA XOOM™',
-          snippet: 'The Next, Next Generation tablet.',
-          age: 3
-        }
-      ];
-      this.orderProp = 'age';
+    controller: function PhoneListController($http) {
+      // Since we are making the assignment of the
+      // phones property in a callback function,
+      // where the this value is not defined,
+      // we also introduce a local variable called
+      // self that points back to the controller instance.
+      var self = this;
+      self.orderProp = 'age';
+      $http.get('phones/phones.json').then(function(response){
+        self.phones = response.data;
+      })
     }
   });
