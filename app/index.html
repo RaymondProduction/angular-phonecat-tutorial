@@ -1,5 +1,5 @@
-<p><!doctype html>
-<html lang="en" ng-app="phonecatApp">
+<!doctype html>
+<html lang="en" ng-app="phonecatApp" class="ng-scope">
   <head>
     <meta charset="utf-8">
     <title>Phone gallery</title>
@@ -16,8 +16,10 @@
     <script src="phone-detail/phone-detail.component.js"></script>
   </head>
   <body>
-    <phone-list></phone-list>
-    <greet-user></greet-user>
+    <!--<phone-list></phone-list>-->
+    <!-- <greet-user></greet-user> -->
+
+    <div ng-view></div>
 
   </body>
 </html>
