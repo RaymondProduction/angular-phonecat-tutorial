@@ -4,4 +4,5 @@ angular.module('phonecatApp', [
   'phoneList',
   'greetUser',
   'phoneDetail',
+  'core'
 ]);
